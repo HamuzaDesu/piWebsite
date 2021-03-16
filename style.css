@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html, body{
+    height: 100%;
+    overflow: hidden;
+}
+::selection{
+    background: none;
+    color: orange;
+}
+#textPi{
+    word-wrap: break-word;
+    font-family: 'Roboto Mono';
+}
+
+#textPi, .fa-info{
+    font-size: 3em;
+}
+
+.nonHighlightable{
+    user-select: none;
+}
+
+.secretChar{
+    /* color: red; */
+    transition: 0.2s;
+}
+.secretChar:hover{
+    /* color: red; */
+    font-size: 55px;
+    border: 2px solid black;
+}
+.secretChar:active{
+    font-size: 48px;
+    background-color: black;
+    color: white;
+}
+
+/* MODAL */
+
+.aboutModalTitle {
+    vertical-align: middle;
+}
+.modal-content {
+    background-color: white;
+    border-radius: 30px;
+}
+.close {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    transition: 500ms;
+}
+.close:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.githubPfp {
+    border-radius: 50%;
+}
